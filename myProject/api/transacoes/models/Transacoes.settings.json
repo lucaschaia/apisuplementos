@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "transacoes",
+  "info": {
+    "name": "transacoes",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "data": {
+      "default": "",
+      "type": "date"
+    },
+    "validade": {
+      "default": false,
+      "type": "boolean"
+    },
+    "pagamento": {
+      "default": false,
+      "type": "boolean"
+    },
+    "entregue": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

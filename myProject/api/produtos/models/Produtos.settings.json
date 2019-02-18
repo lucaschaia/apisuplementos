@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "produtos",
+  "info": {
+    "name": "produtos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "nome": {
+      "default": "",
+      "type": "string"
+    },
+    "estoque": {
+      "default": "",
+      "type": "integer"
+    },
+    "preço": {
+      "default": "",
+      "type": "decimal"
+    },
+    "descrição": {
+      "default": "",
+      "type": "text"
+    },
+    "disponível": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}
